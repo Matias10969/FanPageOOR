@@ -1,9 +1,20 @@
 .carr1{
-    height: 1060px;
-    object-fit: cover;
-    max-height: 100vh; 
+    height: 900px;
     margin-bottom: 10px;
     }
+@media(max-width:893px){
+    .carr1{
+    height: 400px;
+    margin-bottom: 10px;
+    }
+    
+}
+@media(max-width:640px){
+    .carr1{
+        height: 300px;
+        margin-bottom: 10px;
+        }
+}
 
 .navtxt{
     font-size: 30px;
@@ -125,7 +136,10 @@ body::before {
 }
 .sobre{
     font-size: 30px;
-    margin-right: 200px;
+    text-align: center;
+}
+.lor{
+    border-radius: 90px;
 }
 .card {
     margin-bottom: 20px;
