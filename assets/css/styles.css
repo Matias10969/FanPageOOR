@@ -1,0 +1,175 @@
+.carr1{
+    height: 1060px;
+    object-fit: cover;
+    max-height: 100vh; 
+    margin-bottom: 10px;
+    }
+
+.navtxt{
+    font-size: 30px;
+    color: rgb(160, 161, 160);
+    text-shadow: 1px 1px 1px  rgb(66, 60, 39);
+}
+.navtxt:hover{
+    color: blue;
+}
+
+body {
+    margin: 0;
+    height: auto; 
+    background-image: url('/assets/images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+
+
+body::before {
+    overflow: auto;
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(134, 130, 190, 0.39);
+    z-index: -1;
+}
+.img-custom {
+
+    width: 500px; 
+    height: 300px; 
+    object-fit: cover; 
+}
+
+
+.titulo{
+    font-family: "new rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 4px  rgb(255, 0, 0);
+    font-size: 80px;
+}
+.titulo:hover{
+
+    color: rgb(184, 28, 223);
+    text-shadow: 4px 4px 4px  rgb(19, 195, 218);
+}
+
+.titulo2{
+    font-family: "Metal", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(0, 221, 250);
+    text-shadow: 4px 4px 4px  rgb(116, 114, 114);
+    font-size: 80px;
+
+}
+.titulo2:hover{
+
+    color: rgb(196, 94, 221);
+    text-shadow: 4px 4px 4px  rgb(19, 55, 218);
+}
+.text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 380px;
+    margin-right: 380px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+.logoor{
+    height: 400px;
+    width: 450px;
+    margin-left: 150px;
+    
+}
+
+.sobremi{
+    font-size: 0px;
+    color: black;
+    text-shadow: 3px 3px 3px rgb(217, 255, 0);
+
+}
+.colab{
+    color: rgb(241, 142, 29);
+}
+.colab:hover{
+    color: rgb(17, 201, 72);
+
+}
+.sobremi:hover{
+    color: rgb(8, 108, 155);
+    text-shadow: 3px 3px 3px rgb(163, 13, 168);
+}
+.txt1{
+    background-color: rgba(85, 83, 83, 0.938);
+}
+.tsobre{
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(241, 142, 29);
+    text-shadow: 4px 4px 4px  rgb(81, 10, 99);
+    font-size: 60px;
+
+}
+.tsobre:hover{
+    color: rgb(167, 0, 111);
+    text-shadow: 4px 4px 4px  rgb(133, 135, 236);
+}
+.sobre{
+    font-size: 30px;
+    margin-right: 200px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-img-top {
+    height: 250px; 
+    width: 100%; 
+    object-fit: cover; 
+}
+.card:hover{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 9px 9px 9px red;
+}
+.footer1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px black;
+    background-image: url("/assets/images/oor2.jpg");
+    background-position: center;
+
+
+}
+
+
+/* TERMINO DE INDEX */
+/* INICIO DE BEST */
+.bestit{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 10px;
+}
+.bestit:hover{
+    color: red;
+}
+
+.carr2{
+    height: 1070px;
+    object-fit: cover;
+    max-height: 100vh; 
+    margin-bottom: 10px;
+    }
+
+    
