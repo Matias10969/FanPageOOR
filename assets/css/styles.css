@@ -17,7 +17,7 @@
 body {
     margin: 0;
     height: auto; 
-    background-image: url('/assets/images/fondo.jpg');
+    background-image: url('../images/fondo.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -144,7 +144,7 @@ body::before {
     font-size: 30px;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 4px black;
-    background-image: url("/assets/images/oor2.jpg");
+    background-image: url("../images/oor2.jpg");
     background-position: center;
 
 
