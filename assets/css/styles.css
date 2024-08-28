@@ -1,28 +1,61 @@
 .carr1{
     height: 900px;
-    margin-bottom: 10px;
+
     }
-@media(max-width:893px){
+
+
+@media(max-width:1400px){
     .carr1{
-    height: 400px;
-    margin-bottom: 10px;
+        height: 600px;
+    }
+    @media(max-width:950px){
+        .carr1{
+            height: 450px;
+        }
+    }
+    @media(max-width:700px){
+        .carr1{
+            height: 350px;
+        }
     }
     
 }
-@media(max-width:640px){
-    .carr1{
-        height: 300px;
-        margin-bottom: 10px;
-        }
+.logonav{
+    width: 200px;
+    height: 80px;
+    margin-bottom: 15px;
+
 }
+
 
 .navtxt{
     font-size: 30px;
-    color: rgb(160, 161, 160);
-    text-shadow: 1px 1px 1px  rgb(66, 60, 39);
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px  rgb(0, 0, 0);
+    font-family: "Bungee Tint", sans-serif;
+    font-style: normal;
 }
 .navtxt:hover{
-    color: blue;
+    text-shadow: 5px 4px 3px  pink;
+}
+
+@media(max-width:1391px){
+    .navtxt{
+
+        font-size: 25px;
+    }
+    @media(max-width:1210px){
+        .navtxt{
+    
+            font-size: 20px;
+        }
+        @media(max-width:1120px){
+            .navtxt{
+        
+                font-size: 19px;
+            }
+        }
+    }
 }
 
 body {
@@ -179,11 +212,5 @@ body::before {
     color: red;
 }
 
-.carr2{
-    height: 1070px;
-    object-fit: cover;
-    max-height: 100vh; 
-    margin-bottom: 10px;
-    }
 
     
