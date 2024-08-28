@@ -189,16 +189,26 @@ body::before {
     border-radius: 10px 10px 10px 10px;
     box-shadow: 9px 9px 9px red;
 }
-.footer1{
+.footer1 {
+    position: relative;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(255, 255, 255);
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    background-position: center;
     background-image: url("../images/oor2.jpg");
     background-position: center;
 
 
 }
+
+
+
+.footer1 a {
+    position: relative;
+    z-index: 1; 
+}
+
 
 
 /* TERMINO DE INDEX */
