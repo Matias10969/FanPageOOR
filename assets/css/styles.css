@@ -282,5 +282,35 @@ body::before {
     border-radius: 30px;
     
 }
+
+/* formtext */
+.formtext{
+    font-size: 30px;
+
+}
+/* IMAGENES OOR CHILE */
+
+.oorchile{
+
+    height: 400px;
+    width: 600px;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 30px;
+
+   
+}
+
+.oorchile1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textimg{
+    font-size: 30px;
+    background-color: #ff0000;
+    padding: 10px;
+}
     
     
