@@ -286,6 +286,7 @@ body::before {
 /* formtext */
 .formtext{
     font-size: 30px;
+    color: white;
 
 }
 /* IMAGENES OOR CHILE */
@@ -297,6 +298,7 @@ body::before {
     box-shadow: 5px 5px 5px;
     margin-bottom: 30px;
 
+
    
 }
 
@@ -305,6 +307,7 @@ body::before {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .textimg{
@@ -312,5 +315,82 @@ body::before {
     background-color: #ff0000;
     padding: 10px;
 }
+.titform{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+}
     
+.formoor{
+    background-color: rgb(54, 54, 54);
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 30px;
     
+}
+
+
+/* imagenes de oor chile */
+.fotoschile{
+   
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 50%;
+  }
+
+  .right-column {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .left-column img, .right-column img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .left-column img {
+    height: calc(50vh - 10px); /* Ajusta la altura según tus necesidades */
+  }
+
+  .right-column img {
+    height: 100%;
+  }
+
+  .text-content {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 40px;
+  }
+
+  @media (max-width: 1200px) {
+    .gallery {
+      flex-direction: column;
+    }
+
+    .right-column img {
+      height: auto;
+    }
+
+    .text-content {
+      margin-top: 10px;
+    }
+  }
